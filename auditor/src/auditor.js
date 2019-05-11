@@ -2,7 +2,7 @@ const dgram = require('dgram');
 const s = dgram.createSocket('udp4');
 const protocol = require("./protocol");
 var net = require('net');
-var moment = require('moment/moment');
+var moment = require('moment');
 
 var musicians = [];
 
