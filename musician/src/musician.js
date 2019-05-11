@@ -1,5 +1,5 @@
 var protocol = require('./protocol');
-var moment = require('moment');
+var moment = require('moment/moment');
 const dgram = require('dgram');
 var uuid = require('uuid');
 var s = dgram.createSocket('udp4');
